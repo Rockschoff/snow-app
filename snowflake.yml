@@ -1,0 +1,10 @@
+definition_version: 1
+native_app:
+  name: DEMO_APP_PACKAGE
+  source_stage: arr_src.stage
+  artifacts:
+    - src: src/*
+      dest: ./
+  package:
+    scripts:
+      - scripts/setup-package-scripts.sql
